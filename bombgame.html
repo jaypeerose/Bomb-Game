@@ -5,11 +5,11 @@
 <body style='margin : 0px; overflow: hidden;'>		
 	<a-scene embedded arjs='debugUIEnabled: false; sourceType: webcam;'>
         	<a-assets>
-             		<a-asset-item id="dogWithBomb" src="Dog with bomb model/scene.gtlf"></a-asset-item>
+             		<a-asset-item id="dogWithBomb" src="/TNT/TNT_obj.obj"></a-asset-item>
         	</a-assets>
         
         	<a-marker type='pattern' url='Markers/pattern-LMarker.patt'>
-            		<a-entity gltf-model="#dogWithBomb"></a-entity>
+            		<a-entity obj-model="#dogWithBomb"></a-entity>
         	</a-marker>
 		
 		<a-entity camera></a-entity>
